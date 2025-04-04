@@ -1,0 +1,137 @@
+/*Partie page d'acceuil index.html*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family : Arial, Helvetica, sans-serif;
+}
+.texte{
+    text-align: justify;
+    font-family : Arial, Helvetica, sans-serif;
+    color: #55368A;
+    padding: 2%;
+    font-weight: 500;
+}
+.text{
+    height:19%;
+    width: 75%;
+    border-style: double;
+    border-color: black;
+    border-radius: 4px;
+    border-width: 4px 4px;
+    background-color: white;
+    position: relative;
+    animation: slideInFromLeft 3s ease-out forwards;
+}
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+
+}
+.design{
+    height: 30%;
+    width: 75%;
+    border-radius: 40px;
+    animation: Design 3s ease-in-out forwards;
+}
+@keyframes Design{
+    0%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.principale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20% auto;
+    width: 70vh;
+    height: 100vh;
+    border: 2px solid rgb(85,54,138);
+    background-color: rgba(209, 207, 182, 0.34);
+    border-radius: 10px;
+}
+.bienvenu{
+    font-family : Arial, Helvetica, sans-serif;
+    color: #55368A;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out;
+    animation: Bienvenu 3s ease-in-out forwards;
+}
+.bienvenu:hover{
+    transform: scale(1.1);
+}
+@keyframes Bienvenu{
+    0%{
+        transform: translateX(-200%)
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.bouton-accueil{
+    border: 1px solid black;
+    width: 25vh;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #55368A;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.btn{
+    text-decoration: none;
+    color: white;
+}
+.bouton-accueil:hover{
+    transform: scale(1.3);
+}
+               /*Partie cv cv.html*/
+.tof{
+    height: 8vh;
+    width: 8vh;
+}
+.contenu{
+   margin: 20% auto;
+   height: 150vh;
+   width: 100vh;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: row;
+   
+} 
+.gauche-grand{
+    border: 1px solid black;
+    height: 150vh;
+    width: 40vh;
+    background-color: rgba(209, 207, 182, 0.34);
+    margin: 0 5vh;
+}
+.gauche{
+    border: 1px solid blue;
+    height: 60vh;  
+}
+.milieu{
+    border: 1px solid yellow;
+    height: 30vh;
+   
+}
+.bas{
+    border: 1px solid red;
+    height: 60vh;
+}
+.droite{
+    border: 1px solid black;
+    height: 100%;
+    width: 50vh;
+}
