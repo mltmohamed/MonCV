@@ -331,3 +331,239 @@
     opacity: 0.9;
     margin-right: 3.5em;
 }
+                            /* Le Div à Droite */
+.droite{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+}
+.apro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-right: 2em; 
+    margin-bottom: 1em;  
+}
+.apropos{
+    position: relative;
+    bottom: 1em;
+}
+#prop{
+    font-size: 2.5em;
+}
+.propo-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #632C2C;
+}
+.texto{
+    font-size: 11px;
+    font-weight: lighter;
+    color: #632C2C;
+    opacity: 0.9;
+    text-align: justify;
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-right: 2.3em;
+}
+#experi{
+    font-size: 1.5em;
+}
+.experi-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #632C2C;
+}
+.cercleexperi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 2.3em;
+    width: 2.3em;
+}
+.experiencepro{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.exp1{
+    font-size: 11px;
+    font-weight: lighter;
+    color: #632C2C;
+    opacity: 0.9;
+    text-align: justify;
+}
+.exp2{
+    font-size: 11px;
+    font-weight: lighter;
+    color: #632C2C;
+    opacity: 0.9;
+    text-align: justify;
+}
+.exp3{
+    font-size: 11px;
+    font-weight: lighter;
+    color: #632C2C;
+    opacity: 0.9;
+    text-align: justify;
+}
+.web{
+    font-size: 12px;
+    font-weight: 700;
+    color: #632C2C;
+}
+.product{
+    font-size: 12px;
+    font-weight: 700;
+    color: #632C2C;
+}
+.motion{
+    font-size: 12px;
+    font-weight: 700;
+    color: #632C2C;
+}
+.sqil{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    gap: 1em;
+}
+.squil-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #632C2C;
+}
+.circlesquil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 2.3em;
+    width: 2.3em;
+}
+#chart{
+    font-size: 1.5em;
+}
+.htm,.adobe,.microsoft{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.skills p{
+    color: #632C2C;
+}
+.prog1{
+    position: relative;
+    left: 2em;
+}
+.prog2{
+    position: relative;
+    right: 0.3em;   
+}
+.prog3{
+    position: relative;
+    right: 0.1em; 
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.lang-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #632C2C;
+}
+#langico{
+    font-size: 1.5em;
+}
+.cerclelang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 2.3em;
+    width: 2.3em;
+}
+.anglais{
+    color: #632C2C;
+}
+.francais{
+    color: #632C2C;
+}
+.l1{
+    border: 1px solid #632C2C;
+    background-color: #632C2C;
+    height: 0.2em;
+    width: 0.2em;
+    border-radius: 50%;
+}
+.l2{
+    border: 1px solid #632C2C;
+    background-color: #632C2C;
+    height: 0.2em;
+    width: 0.2em;
+    border-radius: 50%;
+}
+.glob1,.glob2{
+    margin-top: 1em;
+    margin-left: 1em;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.cercleflag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 2.3em;
+    width: 2.3em;
+}
+.hobby-text{
+    font-size: 15px;
+    font-weight: 900;
+    color: #632C2C;
+}
+.hobby{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.hobbies2{
+    border: 1px solid #632C2C;
+    background-color: #632C2C;
+    height: 0.2em;
+    width: 0.2em;
+    border-radius: 50%;
+}
+.lec{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1em;
+    margin-top: 1em;
+}
