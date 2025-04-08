@@ -8,23 +8,23 @@
     <title>Mon Cv</title>
 </head>
 <body class="cv">
-    <main class="contenu">
+    <main class="contenu" id="contenue">
         
             <div class="gauche">
-                <div class="haut">
+                <div class="haut" id="haute">
                     <p class="nom">Mohamed Traore</p>
                     <p class="nom-dev">Developpeur Full Stack</p>
                     <div class="img-tete">
                         <img src="matof.jpg" alt="Ma photo de profil" class="tof">
                     </div>
                 </div>
-                <div class="milieu">
+                <div class="milieu" id="milieue">
                     <div class="m1"><i class="fa-solid fa-circle-user id" id="con"></i><p class="contact">CONTACTEZ-MOI</p></div>
                     <div class="m2"><i class="fa-solid fa-phone-volume"></i><p class="tel">+22372001272</p></div>
                     <div class="m3"><i class="fa-solid fa-globe"></i><p class="site">WWW.siteweb.com</p></div>
                     <div class="m4"><i class="fa-solid fa-location-dot"></i><p class="map">Bamako,Mali</p></div>
                 </div>
-                <div class="bas">
+                <div class="bas" id="base">
                     <div class="b1"><div class="cerclegrad"><i class="fa-solid fa-graduation-cap" id="grad"></i></div><p class="parcours">PARCOURS</p></div>
                     <p class="lycee">LYCEE CADT</p>
                     <p class="bac">Baccalaureat Malien <br> 2018-2019</p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         
-        <div class="droite">
+        <div class="droite" id="droitee">
             <div class="apropos">
                 <div class="apro"><i class="fa-solid fa-circle-user" id="prop"></i><p class="propo-text">A PROPOS DE MOI</p></div>
                 <p class="texto">Passionné par la robotique , l’intelligence  artificielle   et 
@@ -83,5 +83,12 @@
             </div>
         </div>    
     </main>  
+    <div class="mesboutons" >
+        <button class="retour" class="no-print" type="button" onclick="retour()"> Retour </button>
+        <button class="couleur" type="button" onclick="changerCouleur()">Changer la Couleur</button>
+        <button class="telecharger" onclick="telecharger()">Telecharger !</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </body>
 </html>

@@ -104,6 +104,7 @@
     justify-content: center;
     align-items: center;
     font-size: 10px;
+    background-color: rgba(209, 207, 182, 0.1);
 }
 .contenu{
   max-height: 210mm;
@@ -117,6 +118,7 @@
   padding: 0 3vh;
   border: 1px solid black;
   gap: 3vh;
+  background-color: white;
 }
             /* mon image en haut à gauche */
 .tof{
@@ -567,3 +569,42 @@
     margin-left: 1em;
     margin-top: 1em;
 }
+.mesboutons{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    position: relative;
+    left: 5em;
+}
+.retour{
+    border-radius: 3em;
+    padding: 1em;
+}
+.retour:hover{
+    font-weight: 500;
+    color: #D9D9D9;
+    background-color: #63ca3b;
+    transform: scale(1.3);
+}
+.couleur{
+    border-radius: 3em;
+    padding: 1em;
+}
+.couleur:hover{
+    font-weight: 500;
+    color: #D9D9D9;
+    background-color: #7751b3;
+    transform: scale(1.3);
+}
+.telecharger{
+    border-radius: 3em;
+    padding: 1em;
+}
+.telecharger:hover{
+    font-weight: 500;
+    color: #D9D9D9;
+    background-color: #f13838;
+    transform: scale(1.3);
+}
+
+  
