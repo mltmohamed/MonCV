@@ -1,16 +1,21 @@
 function retour(){
     window.location.href = 'index.html';
 }
+function getRandomColor() {
+    // Génère une couleur hexadécimale aléatoire
+    return '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
+  }
 
 function changerCouleur(){
+    const a = getRandomColor();
     const droite = document.getElementById('haute');
-    droite.style.backgroundColor = "#7751b3";
+    droite.style.backgroundColor = a;//"#7751b3";
     
     const droitee = document.getElementById('droitee');
-    droitee.style.backgroundColor = "#63ca3b"
+    droitee.style.backgroundColor = a;//"#63ca3b"
 
     const base = document.getElementById('base');
-    base.style.backgroundColor = "#7751b3"
+    base.style.backgroundColor = a;//"#7751b3"
 }
 
 /*function telecharger() {

@@ -115,7 +115,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 3vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   gap: 3vh;
   background-color: white;
 }
@@ -134,14 +134,14 @@
 }
             /* Le div à droite */
 .droite{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     width: 50%;
 }
 
             /* Le div à gauche */
 .gauche{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     width: 50%;
     background-color: #D9D9D9;
@@ -171,7 +171,7 @@
 }
 /* le div à gauche au milieu */
 .milieu{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 15%;
     display: flex;
     align-items: center ;
@@ -770,59 +770,250 @@
    }
    .contenu{
     height: 100vh;
-    width: 70.7vh;
-  
+    width: 60vh;
+   }
+   .nom-dev{
+    font-size: 14px;
+   }
+   .nom{
+    font-size: 17px;
+   }
+   .tof{
+        height: 22vh;
+        width: 24vh;
+        position: relative;
+        top: 10px;
+   }
+   .contact,.parcours,.reference,.propo-text,.experi-text,.squil-text,.lang-text,.hobby-text{
+    font-size: 14px;
+   }
+   .m1{
+    position: relative;
+    top: 2px;
+   
+   }
+   .m2,.m3,.m4{
+    font-size: 10px;
+   }
+   .b1{
+    position: relative;
+    top: 30px;
+    left: 2px;
+
+   }
+   .lycee,.enetp{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+   }
+   .bac,.master{
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+   }
+   .b2{
+    position: relative;
+    top: 15px;
+   }
+   .amadou,.ousmane{
+    font-size: 12px;
+    position: relative;
+   }
+   .rue1,.rue2{
+    font-size: 10px;
+    position: relative;
    }
 }
-@media screen and (max-width:625px){
-    .contenu{
-        height: 100vh;
-        width: 60.7vh;
-        }
+@media screen and (max-width:420px){
     .mesboutons{
-        height: vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 10px;
+       }
+    
+       .cv{
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+       }
+       .contenu{
+        height: 100vh;
+        width: 50vh;
+       }
+       .nom-dev{
+        font-size: 12px;
+       }
+       .nom{
+        font-size: 15px;
+       }
+       .tof{
+            height: 20vh;
+            width: 20vh;
+            position: relative;
+            top: 10px;
+       }
+       #con{
+        font-size: 23px;
+       }
+       .contact,.parcours,.reference,.propo-text,.experi-text,.squil-text,.lang-text,.hobby-text{
+        font-size: 11px;
+       }
+       .cercleexperi,.cercleflag,.cerclegrad,.cerclelang,.cercleref,.circlesquil{
+        height: 2.4em;
+        width: 2.4em;
+       }
+       #grad,#ref,#prop,#experi,#chart,#langico,#hob{
+        font-size: 12px;
+       }
+       .m1{
+        position: relative;
+        bottom: 10px;
+       
+       }
+       .m2,.m3,.m4{
+        font-size: 9px;
+        position: relative;
+        left: 10px;
+        top: 2px;
+       }
+       .bas{
+        display: flex;
+        padding: 0;
+        gap: 0em;
+       }
+       .b1{
+        position: relative;
+        margin-top: 0em; 
+       }
+       .lycee,.enetp{
+        position: relative;
+        top: 20px;
+        font-size: 12px;
+       }
+       .bac,.master{
+        font-size: 10px;
+        position: relative;
+        top: 20px;
+       }
+       .b2{
+        position: relative;
+        top: 15px;
+       }
+       .amadou,.ousmane{
+        font-size: 12px;
+        position: relative;
+       }
+       .rue1,.rue2{
+        font-size: 10px;
+        position: relative;
     }
-    .experi-text{
-        font-size: 14px;
+    .texto{
+        font-size: 12px;
+        bottom: 4em;
     }
-    .propo-text{
-        font-size: 14px;
+    .droite{
+        justify-content: center;
     }
-    .nom{
+    .apro{
+        bottom: 6em;
+    }
+    #prop{
+        font-size: 23px;
+    }
+    .web,.product,.motion{
+        font-size: 12px;
+    }
+    .exp1,.exp2,.exp3{
+        font-size: 10px;
         
     }
-    .nom-dev{
+    .exp{
+        bottom: 70px;
+    }
+    .htm-text,.adobe-text,.microsoft-text{
+        font-size: 11px;
+        position: relative;
+        top: 68px;
+    }
+    .skills{
+        gap: 0.3em
+    }
+    .progress1,.progress2,.progress3{
+        height: 0.3em;
+        width: 7em;
+        position: relative;
+        top: 85px;
+    }
+    .sqil{
+        bottom: 40px;
+    }
+    .progress3{
+        right: 8px;
+    }
+    .progress2{
+        right: 8px;
+    }
+    .inprogress1,.inprogress2,.inprogress3{
+        height: 0.2em;
+        width: 2em;
 
     }
-    .contact{
-        font-size: 14px;
+    .hobbies{
+        top: 9em;
+        /* border: 4px solid wheat; */
     }
-    .parcours{
-        font-size: 14px;
+    .lang{
+        top: 2px;
     }
-    .reference{
-        font-size: 14px;
+    .langage{
+        top: 4em;
+        
+        gap: 0.2em;
+        bottom: 2px;
+        height: 90px;
     }
-    .squil-text{
-        font-size: 14px;
-    }
-    .lang-text{
-        font-size: 14px;
-    }
-    .hobby-text{
-        font-size: 14px;
-    }
-    .m1{
-        margin-right: 10px;
-    }
+    .skills{
+        gap: 0em;
+        bottom: 4em;
 
-    .tof{
-        height: 24vh;
-    width: 24vh;
+        height: 90px;
+    }
+    .glob1,.glob2{
+        margin-top: 0px;
+        margin-left: 6px;
+    }
+    .lecture{
+        position: relative;
+        font-size: 12px;
+    }
+    .anglais,.francais{
+        position: relative;
+        font-size: 12px;
+        top: 40px;
+    }
+    .l1,.l2{
+        position: relative;
+        top: 40px;
+    }
+    .l1,.l2,.hobbies2{
+        height: 4px;
+        width: 4px;
+    }
+    .experiencepro{
+        gap: 0.3em;
+    }
+    .mesboutons{
+        font-size: 8px;
+    }
+    .htm,.adobe,.microsoft{
+        
     }
 
 }
-@media screen and (max-width:623px){
+/*@media screen and (max-width:623px){
     .experi-text{
         font-size: 13px;
     }
@@ -865,4 +1056,4 @@
 }
 @media screen and (max-width:623px){
     
-}
+}*/
