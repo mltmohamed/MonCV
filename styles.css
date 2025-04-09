@@ -152,7 +152,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 43%;
     border-bottom-left-radius: 160px;
     border-bottom-right-radius: 160px; 
@@ -219,7 +219,7 @@
 /* le div à gauche en bas */
 .bas{
     height: 41%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-top-left-radius: 160px;
     border-top-right-radius: 160px; 
     display: flex;
@@ -949,6 +949,10 @@
     }
     .sqil{
         bottom: 40px;
+    }
+    .progress1{
+        left: 9px;
+        display: none;
     }
     .progress3{
         right: 8px;
