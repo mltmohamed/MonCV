@@ -44,9 +44,9 @@ function telecharger()
             filename: 'cv.pdf',
             image: { type: 'jpeg', quality: 1 }, // Qualité max
             html2canvas: { 
-                scale: 2, // Augmenté pour meilleure qualité
-                scrollX: 250,
-                scrollY: 0,
+                // scale: 1, // Augmenté pour meilleure qualité
+                scrollX: 290,
+                scrollY: 2,
                 windowWidth: element.scrollWidth,
                 windowHeight: element.scrollHeight,
                 useCORS: true, //pour la securité concernant les liens externes
